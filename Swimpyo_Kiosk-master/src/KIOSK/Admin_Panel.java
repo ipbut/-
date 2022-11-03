@@ -94,6 +94,7 @@ public class Admin_Panel extends JPanel implements ActionListener {
 		} else if (e.getSource() == back_btn) {
 			MainSystem.frame.setContentPane(new Login_Panel());
 			MainSystem.frame.revalidate();
+			//기능 고치기 github
 		}
 	}
 
